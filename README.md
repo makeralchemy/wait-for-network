@@ -3,7 +3,7 @@
 ## Overview
 *waitfornetwork* is a program used to determine if the ip network is up. *waitfornetwork* will attempt to get the IP address of a site, retrying for a specified number of seconds, until either the IP address is obtained or the time has been exceeded. 
 
-This program was intended to be used in boot scripts like *rc.local* before programs are invoked that need access to the network. Using *waitfornetwork* is better than using ************************* because *waitfornetwork* is not tied to a specific network interface and is not as difficult to use or to configure as other techniques.
+This program was intended to be used in boot scripts like *rc.local* before programs are invoked that need access to the network. Using *waitfornetwork* is better than using adding *post-up* commands to */etc/network/interfaces* because *waitfornetwork* is not tied to a specific network interface and is not as difficult to use or test.
 
 *waitfornetwork* is written for python 2.7.x.
 
