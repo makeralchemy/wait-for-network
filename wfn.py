@@ -14,7 +14,7 @@ import argparse
 # returns a tuple of two values: an integer return code and a string message.
 
 MAX_TIMEOUT = 600
-DEFAULT_TIMEOUT = 60
+DEFAULT_TIMEOUT = 240
 DEFAULT_WEB_SITE = 'www.google.com'
 
 SUCCESS = 0
